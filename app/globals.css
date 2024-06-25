@@ -2,12 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: "SeaOfCups";
+  src: url("../public/font/CupofSeaRegular.woff") format("woff"),
+    url("../public/font/CupofSeaRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SlowLife";
+  src: url("../public/font/Slow-Life.ttf.woff") format("woff"),
+    url("../public/font/Slow\ Life.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "Mahoni";
+  src: url("../public/font/Mahoni-Free-Personal-Use.ttf.woff") format("woff"),
+    url("../public/font/Slow\ Life.ttf") format("truetype");
+}
+
 :root {
-  --primary-color: #F08656;
+  --primary-color: #f08656;
   --secondary-color: #000;
+  font-family: "Mahoni", monospace;
+  text-transform: uppercase;
 }
 
 .image {
-  background-image: url('../public/mr-bates-thumb-1.png');
+  background-image: url("../public/mr-bates-thumb-1.png");
   background-size: cover;
 }

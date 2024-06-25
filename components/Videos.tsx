@@ -2,6 +2,7 @@
 import { videos } from '@/data/videos'
 import React, { useState } from 'react'
 import { video } from '@/types'
+import Link from 'next/link'
 
 const Videos = () => {
     const [cat, setCat] = useState('Booster')
@@ -17,12 +18,12 @@ const Videos = () => {
         <div className='grid grid-cols-3 gap-10 w-[80vw] mx-auto'>
             {videos.filter(({category}) => category.includes(cat)).length > 0 ? (
             videos.filter(({category}) => category.includes(cat)).map(({id, title, category, description, thumbnail}: video) => (
-                <div className='flex flex-col gap-2 items-start' key={id}>
+                <Link href={`/${id}`} className='flex flex-col gap-2 items-start' key={id}>
                     <img src={thumbnail.src}/>
                     <h3 className='text-lg'>{title}</h3>
-                    <h4 className='px-2 border border-primary-color'>{category}</h4>
+                    <h4 className='px-2 pt-1 border border-primary-color'>{category}</h4>
                     <p>{description}</p>
-                </div>
+                </Link>
             ))
             ) : (
                 <p>No Videos Available</p>

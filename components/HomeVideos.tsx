@@ -16,7 +16,7 @@ const HomeVideos = () => {
                 <div className='flex flex-col gap-2 items-start' key={id}>
                     <img src={thumbnail.src}/>
                     <h3 className='text-lg'>{title}</h3>
-                    <h4 className='px-2 border border-primary-color'>{category}</h4>
+                    <h4 className='px-2 pt-1 border border-primary-color'>{category}</h4>
                     <p>{description}</p>
                 </div>
             ))}

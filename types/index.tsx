@@ -6,4 +6,5 @@ export interface video {
     category: Array<string>,
     description: string,
     thumbnail: any,
+    url: string,
 }
