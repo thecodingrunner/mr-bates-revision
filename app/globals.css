@@ -14,17 +14,31 @@
     url("../public/font/Slow\ Life.ttf") format("truetype");
 } */
 
-@font-face {
+/* @font-face {
   font-family: "Mahoni";
   src: url("../public/font/Mahoni-Free-Personal-Use.ttf.woff") format("woff"),
     url("../public/font/Slow\ Life.ttf") format("truetype");
+} */
+
+/* @font-face {
+  font-family: "HelloSpring";
+  src: url("../public/font/Hello-Spring-Texture-FREE.ttf.woff") format("woff"),
+    url("../public/font/Hello\ Spring\ FREE.ttf") format("truetype");
+} */
+
+@font-face {
+  font-family: "LoveMe";
+  src: url("../public/font/KG-Do-You-Love-Me-Regular.ttf.woff") format("woff"),
+    url("../public/font/KGDoYouLoveMe.ttf") format("truetype");
 }
 
 :root {
   --primary-color: #f08656;
   --secondary-color: #000;
-  font-family: "Mahoni", monospace;
-  text-transform: uppercase;
+  font-family: "LoveMe", monospace;
+  /* text-transform: uppercase; */
+  /* font-size: 1.2rem; */
+  font-weight: bold;
 }
 
 .image {

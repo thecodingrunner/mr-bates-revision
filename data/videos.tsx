@@ -1,12 +1,35 @@
 import thumb1 from '../public/mr-bates-thumb-1.png'
 
+import AMITHINKING from '../public/thumbnails/AM I THINKING (1).png'
+import BRAINDUMP from '../public/thumbnails/BRAIN DUMP BIG and SMALL 1.png'
+import COPYING from '../public/thumbnails/Copying level up.png'
+import CUTTOCOVER from '../public/thumbnails/CUT to COVER revision activity.png'
+import DIAGRAM from '../public/thumbnails/DIAGRAM reusable testable revision.png'
+import FLASHCARDS from '../public/thumbnails/Digital Flashcards level up.png'
+import EXAMQUESTIONS from '../public/thumbnails/EXAM QUESTIONS level up.png'
+import LITTLEBIG from '../public/thumbnails/LITTLE BIG PICTURE (1).png'
+import PICTUREIT from '../public/thumbnails/PICTURE IT.png'
+import READING from '../public/thumbnails/READING level up.png'
+import CLOCK from '../public/thumbnails/REVISION CLOCK thumbnail.png'
+import SDRAWKCAB from '../public/thumbnails/SDRAWKCAB .png'
+import SEPARATE from '../public/thumbnails/SEPARATE Qs from As revision activity.png'
+import STOPANDEXPLAIN from '../public/thumbnails/STOP and EXPLAIN.png'
+import STUDDYBUDDY from '../public/thumbnails/STUDY BUDDY thumbnail.png'
+import SUMMARISE from '../public/thumbnails/SUMMARISE.png'
+import TABLES from '../public/thumbnails/TABLES are GREAT.png'
+import THINKITOUT from '../public/thumbnails/THINK IT OUT.png'
+import THINKOFALINK from '../public/thumbnails/THINK of a LINK.png'
+import THISNOTTHAT from '../public/thumbnails/THIS NOT THAT.png'
+import TIMEWELLSPENT from '../public/thumbnails/TIME WELL SPENT thumbnail.png'
+import TOUGHSTUFF from '../public/thumbnails/TOUGH STUFF ONLY.png'
+
 export const videos = [
     {
         id: 1,
         title: 'DIGITAL FLASHCARDS',
         category: ['Level Up'],
         description: 'Why everyone should use digital flashcards and how to level them up.💻💳✅😃',
-        thumbnail: thumb1,
+        thumbnail: FLASHCARDS,
         url: 'https://www.youtube.com/embed/7Ifwoi27V4M',
     },
     {
@@ -14,7 +37,7 @@ export const videos = [
         title: 'TIME WELL SPENT',
         category: ['Booster'],
         description: 'Make the most of your time 👊🕗👊',
-        thumbnail: thumb1,
+        thumbnail: TIMEWELLSPENT,
         url: 'https://www.youtube.com/embed/HYsFZ9-h68o',
     },
     {
@@ -22,7 +45,7 @@ export const videos = [
         title: 'COPYING',
         category: ['Level Up'],
         description: 'Watch this video if you copy information during your revision. 📝✍🏻',
-        thumbnail: thumb1,
+        thumbnail: COPYING,
         url: 'https://www.youtube.com/embed/cOcE57oSiCg',
     },
     {
@@ -30,7 +53,7 @@ export const videos = [
         title: 'EXAM QUESTIONS',
         category: ['Level Up'],
         description: '7 upgrades to make the most out of the best revision resource there is - Can you level up?  ⭐⭐⭐❔⭐⭐⭐',
-        thumbnail: thumb1,
+        thumbnail: EXAMQUESTIONS,
         url: 'https://www.youtube.com/embed/g4vml4jtFQU',
     },
     {
@@ -38,7 +61,7 @@ export const videos = [
         title: 'READING',
         category: ['Level Up'],
         description: 'Is reading a good way to revise? - Can you level it up?  📖🚀',
-        thumbnail: thumb1,
+        thumbnail: READING,
         url: 'https://www.youtube.com/embed/EoNrVQ0w8HE',
     },
     {
@@ -46,7 +69,7 @@ export const videos = [
         title: 'STUDY BUDDY',
         category: ['Booster'],
         description: 'Who thought learning could be this good 👩🏻👦🏽🧑🏾',
-        thumbnail: thumb1,
+        thumbnail: STUDDYBUDDY,
         url: 'https://www.youtube.com/embed/2ZZm955kE18',
     },
     {
@@ -54,7 +77,7 @@ export const videos = [
         title: 'THINK IT OUT',
         category: ['Prestudy'],
         description: 'What you think matters! Find out what you think with THINK IT OUT 🧠➡😃',
-        thumbnail: thumb1,
+        thumbnail: THINKITOUT,
         url: 'https://www.youtube.com/embed/P8Zsx2IpWx8',
     },
     {
@@ -62,7 +85,7 @@ export const videos = [
         title: 'THIS NOT THAT',
         category: ['Booster'],
         description: 'Get yourself a better understanding 👊',
-        thumbnail: thumb1,
+        thumbnail: THISNOTTHAT,
         url: 'https://www.youtube.com/embed/HGf-CkYK3zM',
     },
     {
@@ -70,7 +93,7 @@ export const videos = [
         title: 'LITTLE BIG PICTURE',
         category: ['Prestudy'],
         description: 'Welcome to the world of prestudy ↩🌍↩',
-        thumbnail: thumb1,
+        thumbnail: LITTLEBIG,
         url: 'https://www.youtube.com/embed/UVaiOYkJYoU',
     },
     {
@@ -78,7 +101,7 @@ export const videos = [
         title: 'STOP and EXPLAIN',
         category: ['Booster'],
         description: 'A game-changing activity to supercharge your learning ✋👄💬',
-        thumbnail: thumb1,
+        thumbnail: STOPANDEXPLAIN,
         url: 'https://www.youtube.com/embed/nSFiryHdvw4',
     },
     {
@@ -86,7 +109,7 @@ export const videos = [
         title: 'THINK of a LINK',
         category: ['Connecting'],
         description: 'Practise thinking and linking for yourself 🔵➡🟣➡🙂',
-        thumbnail: thumb1,
+        thumbnail: THINKOFALINK,
         url: 'https://www.youtube.com/embed/F9bwT9zt_To',
     },
     {
@@ -94,7 +117,7 @@ export const videos = [
         title: 'BRAIN DUMP BIG and SMALL',
         category: ['Connecting'],
         description: 'One of the best activities that keeps getting better and better ⭐⭐⭐⭐⭐',
-        thumbnail: thumb1,
+        thumbnail: BRAINDUMP,
         url: 'https://www.youtube.com/embed/ExKRcD1Kcrw',
     },
     {
@@ -102,7 +125,7 @@ export const videos = [
         title: 'TABLES are GREAT',
         category: ['Reusable Testable'],
         description: 'Speed up your revision by finding great activities everywhere you look. 👁‍🗨👁‍🗨',
-        thumbnail: thumb1,
+        thumbnail: TABLES,
         url: 'https://www.youtube.com/embed/dCXDceuSsLI',
     },
     {
@@ -110,7 +133,7 @@ export const videos = [
         title: 'PICTURE IT',
         category: ['Booster'],
         description: 'A fun and important part of your revision 🎨',
-        thumbnail: thumb1,
+        thumbnail: PICTUREIT,
         url: 'https://www.youtube.com/embed/-VUqIldMicc',
     },
     {
@@ -118,7 +141,7 @@ export const videos = [
         title: 'AM I THINKING',
         category: ['Booster'],
         description: 'Are you ❓🧠✅',
-        thumbnail: thumb1,
+        thumbnail: AMITHINKING,
         url: 'https://www.youtube.com/embed/_aI054rxqlg',
     },
     {
@@ -126,7 +149,7 @@ export const videos = [
         title: 'TOUGH STUFF ONLY',
         category: ['Booster'],
         description: 'An instant upgrade to your revision efficiency 💪',
-        thumbnail: thumb1,
+        thumbnail: TOUGHSTUFF,
         url: 'https://www.youtube.com/embed/Zitgv2-LuEU',
     },
     {
@@ -134,7 +157,7 @@ export const videos = [
         title: 'SUMMARISE to REVISE',
         category: ['Booster'],
         description: 'An essential skill for your revision 👌',
-        thumbnail: thumb1,
+        thumbnail: SUMMARISE,
         url: 'https://www.youtube.com/embed/JK1wJwHYt5Q',
     },
     {
@@ -142,7 +165,7 @@ export const videos = [
         title: 'SDRAWKCAB',
         category: ['Booster'],
         description: 'A quick and easy boost to your revision ⚡',
-        thumbnail: thumb1,
+        thumbnail: SDRAWKCAB,
         url: 'https://www.youtube.com/embed/O7ZOIYNJ5gM',
     },
     {
@@ -150,7 +173,7 @@ export const videos = [
         title: 'REVISION CLOCK',
         category: ['Reusable Testable'],
         description: 'Turn your favourite revision activities into better activities. E.g. REVISION CLOCK 🕗',
-        thumbnail: thumb1,
+        thumbnail: CLOCK,
         url: 'https://www.youtube.com/embed/0IiRY49eEdA',
     },
     {
@@ -158,7 +181,7 @@ export const videos = [
         title: 'FLASH CARDS',
         category: ['Reusable Testable'],
         description: 'Take a new look at the original Reusable Testable revision activity - FLASH CARDS 👀',
-        thumbnail: thumb1,
+        thumbnail: FLASHCARDS,
         url: 'https://www.youtube.com/embed/cV_HFwUMlj8',
     },
     {
@@ -166,7 +189,7 @@ export const videos = [
         title: 'DIAGRAM',
         category: ['Reusable testable'],
         description: 'Make your DIAGRAMS reusable and testable with this simple technique ✨',
-        thumbnail: thumb1,
+        thumbnail: DIAGRAM,
         url: 'https://www.youtube.com/embed/2GUvOS_Dbxg',
     },
     {
@@ -174,7 +197,7 @@ export const videos = [
         title: 'CUT to COVER',
         category: ['Reusable testable'],
         description: 'A fun technique to help you revise for any subject 😁',
-        thumbnail: thumb1,
+        thumbnail: CUTTOCOVER,
         url: 'https://www.youtube.com/embed/ou4KJJIA3yI',
     },
     {
@@ -182,7 +205,7 @@ export const videos = [
         title: 'SEPARATE Qs from As',
         category: ['Reusable testable'],
         description: 'SEPARATE Qs from As is the best way to start revising. 👈😃👉 And, the more you use it the better it gets.',
-        thumbnail: thumb1,
+        thumbnail: SEPARATE,
         url: 'https://www.youtube.com/embed/JXO9CUBKfGU',
     },
 ]

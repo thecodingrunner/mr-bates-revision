@@ -15,7 +15,7 @@ const steps = [
 
 const HowItWorks = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center pb-28'>
         <h2 className='text-6xl py-6'>How We Work:</h2>
         <div className='flex justify-center items-center gap-2'>
             {steps.map(({step, title, description}) => (
@@ -23,8 +23,8 @@ const HowItWorks = () => {
                     <div className='h-10 w-10 bg-primary-color flex justify-center items-center rounded-lg mb-2'>
                         <div className='text-2xl font-bold'>{step}</div>
                     </div>
-                    <h3 className='text-3xl font-semibold'>{title}</h3>
-                    <p className='text-lg'>{description}</p>
+                    <h3 className='text-4xl font-semibold'>{title}</h3>
+                    <p className='text-2xl'>{description}</p>
                 </div>
             ))}
         </div>
