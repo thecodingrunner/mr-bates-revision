@@ -5,7 +5,7 @@ import { video } from '@/types'
 import { useParams } from 'next/navigation'
 import React, { useDebugValue, useEffect, useState } from 'react'
 
-const page = () => {
+const Page = () => {
   const params = useParams()
   const videoId = params.id
   const [video, setVideo] = useState<video | null>(null)
@@ -34,4 +34,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
